@@ -96,5 +96,5 @@ The models were better at predicting not popular and super popular categories wi
 Some recommendations to improve the popularity of news articles:
 * increase the embedded links to articles which have high popularity
 * increase amount of subjectivity in title
-* increase number of positive words in the content
+* increase number of positive/trending words in the content
 * decrease number of longer words in the content

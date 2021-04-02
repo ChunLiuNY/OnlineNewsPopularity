@@ -36,7 +36,12 @@ Some important features:
 
 Preliminary exploratory data analysis was conducted by creating scatter matrix visualizations and histograms to visualize correlations between features. 
 
-There are some viral articles with significant high number of shares. Negative correlation is seen in number of images vs number of shares, number of videos vs number of shares, number of words in content vs number of shares and number of links vs number of shares. 
+The distribution of number of shares is right skewed as there are some viral articles with significant high number of shares. 
+
+![Screen Shot 2021-04-02 at 12 27 26 AM](https://user-images.githubusercontent.com/26207455/113380461-49cd8200-934a-11eb-90c4-03239479704a.png)
+
+
+Negative correlation is seen in number of images vs number of shares, number of videos vs number of shares, number of words in content vs number of shares and number of links vs number of shares. 
 
 ![Screen Shot 2021-03-31 at 2 29 11 PM](https://user-images.githubusercontent.com/26207455/113379554-d4f94880-9347-11eb-8f5e-dd8a8ab6088f.png)
 

@@ -54,10 +54,10 @@ The dataset contains more articles that are published during the weekdays than t
 ## Supervised Learning Models
 Due to the high variance of the target variable (number of shares), regression models are not suitable for the prediction. So the prediction was tackled as a multiclass classification problem. There are 4 categories based on the percentile of the shares: "not popular", "mediocre", "popular" and "super popular". The multi-class classification was done using One-vs-Rest method, that is, splitting the dataset into multiple binary classification datasets and fit a binary classification model on each. Undersampling was done to deal with the imbalanced data in binary classification for each class.  
 
-Three different supervised learning models were trained.
+Three different supervised learning models were trained. F1 score was used as the indicator of model prediction success. 
 
 ### Logistic Regression
-Logistic regression models were trained on a train/test split using K-fold validation for each category. F1 score was used as the indicator of model prediction success. 
+Logistic regression models were trained on a train/test split using K-fold validation for each category. 
 
 Below is an example of cost matrix with estimated values for each class based on the assumptions:
 * a popular article will bring $5 in ads revenue in average
@@ -76,6 +76,7 @@ According to the profit curve below, 0.5 is the best threshold.
 
 
 ### Random Forest Classifier
+Random Forest classifiers were trained on a train/test split using K-fold validation for each category by conducting a grid search over several chosen values for hyperparameters including number of estimators, max depth and max features. 
 
 ### Gradient Boosting Classifier
 

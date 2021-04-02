@@ -45,6 +45,8 @@ Negative correlation is seen in number of images vs number of shares, number of 
 
 ![Screen Shot 2021-03-31 at 2 29 11 PM](https://user-images.githubusercontent.com/26207455/113379554-d4f94880-9347-11eb-8f5e-dd8a8ab6088f.png)
 
+The dataset contains more articles that are published during the weekdays than the weekends. This could be due to i) not enough data was collected for the weekends or ii) Mashable tends to publish fewer articles during the weekends. Life style related articles has the highest shares than other type of articles. 
+
 ![Screen Shot 2021-04-01 at 7 17 57 PM](https://user-images.githubusercontent.com/26207455/113379587-e6425500-9347-11eb-9ae8-b81527cbf3a4.png)
 
 

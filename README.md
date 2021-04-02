@@ -41,7 +41,7 @@ The distribution of number of shares is right skewed as there are some viral art
 ![Screen Shot 2021-04-02 at 12 27 26 AM](https://user-images.githubusercontent.com/26207455/113380461-49cd8200-934a-11eb-90c4-03239479704a.png)
 
 
-Negative correlation is seen in number of images vs number of shares, number of videos vs number of shares, number of words in content vs number of shares and number of links vs number of shares. 
+Negative correlation are seen in number of images vs number of shares, number of videos vs number of shares, number of words in content vs number of shares and number of links vs number of shares. 
 
 ![Screen Shot 2021-03-31 at 2 29 11 PM](https://user-images.githubusercontent.com/26207455/113379554-d4f94880-9347-11eb-8f5e-dd8a8ab6088f.png)
 
@@ -52,8 +52,14 @@ The dataset contains more articles that are published during the weekdays than t
 
 
 ## Supervised Learning Models
+Due to the high variance of the target variable (number of shares), regression models are not suitable for the prediction. So the prediction was tackled as a multiclass classification problem. There are 4 categories based on the percentile of the shares: "not popular", "mediocre", "popular" and "super popular". Three different supervised learning models were trained. 
 
 ### Logistics Regression
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ### Random Forest Classifier
 

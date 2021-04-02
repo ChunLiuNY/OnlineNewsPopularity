@@ -5,7 +5,8 @@ Mashable is a digital media website founded in 2005. It has 28 million followers
 
 The dataset in this analysis is publically available at [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity). It contains information of 39,644 articles published by Mashable in a period of two years from 2013 to 2015. The dataset is originally acquired and pre-processed by K. Fernandes et al (more details in this [paper](https://link.springer.com/chapter/10.1007/978-3-319-23485-4_53)). There are 58 predictive features, mainly categorized as below.
 
-![features](https://user-images.githubusercontent.com/26207455/113377838-7205b280-9343-11eb-8215-e27db5a62a3f.png)
+![Screen Shot 2021-04-01 at 11 39 54 PM](https://user-images.githubusercontent.com/26207455/113377891-96618f00-9343-11eb-8f10-8188e94901fb.png)
+
 
 
 ### Data Pre-processing

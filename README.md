@@ -7,9 +7,12 @@ The dataset in this analysis is publically available at [UCI Machine Learning Re
 
 ![Screen Shot 2021-04-01 at 11 39 54 PM](https://user-images.githubusercontent.com/26207455/113377891-96618f00-9343-11eb-8f10-8188e94901fb.png)
 
-
-
 ### Data Pre-processing
+
+To prepare the data for modeling, the full dataset is divided into a master train and test set. The test set will not be used until the best model has been chosen by training and testing on the master train datset. 
+
+Data pre-processing steps are as follows:
+* clean data
 
 ### Feature Importance
 

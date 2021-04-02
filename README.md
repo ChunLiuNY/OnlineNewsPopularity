@@ -14,7 +14,7 @@ To prepare the data for modeling, the full dataset is divided into a master trai
 Data pre-processing steps are as follows:
 * removed spaces in column names
 * URL was omitted when loading the data
-* assigned 0 or 1 values for the label
+* assigned 0 or 1 values for binary classes
 * normalized features using MinMaxScaling
 
 ### Feature Importance

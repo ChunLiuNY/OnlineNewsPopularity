@@ -21,9 +21,9 @@ Data pre-processing steps are as follows:
 
 Which features are important to make prediction? Feature importance was obtained based on mean decrease accuracy in random forest model.  
 
-To compute the importance of the $j^{th}$ feature:
- * When the $b^{th}$ tree is grown, use it to predict the test samples and record accuracy.
- * Randomly sort the $j^{th}$ feature (so that it is no longer correlated with the outcome) and do the prediction again.  Compute the new accuracy.
+To compute the importance of the j^{th} feature:
+ * When the b^{th} tree is grown, use it to predict the test samples and record accuracy.
+ * Randomly sort the j^{th} feature (so that it is no longer correlated with the outcome) and do the prediction again.  Compute the new accuracy.
  * Average the change in accuracy across all trees.
 
 ## Exploaroty Data Analysis

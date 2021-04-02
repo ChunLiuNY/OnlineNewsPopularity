@@ -63,12 +63,15 @@ Below is an example of cost matrix with estimated values for each class based on
 * a popular article will bring $5 in ads revenue in average
 * a not popular article will bring -$2 in ads revenue
 * it costs $3 to do improvement on not popular articles to make it popular
-* The opportunity cost of a popular article which predicted as not popular is $3
+* the opportunity cost of a popular article which predicted as not popular is $3
 
 | predicted/actual | not popular    | popular       |
 | :---             |     :---:      |          ---: |
 | not popular      | -$2            | -$5           |
 | popular          | $2             | $5            |
+
+![Screen Shot 2021-03-31 at 7 37 51 PM](https://user-images.githubusercontent.com/26207455/113382752-4ccb7100-9350-11eb-820e-288ab28761af.png)
+
 
 ### Random Forest Classifier
 

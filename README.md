@@ -85,9 +85,8 @@ To demonstrate the effect of different learning rates, below is the training err
 
 ![Screen Shot 2021-03-31 at 11 13 43 PM](https://user-images.githubusercontent.com/26207455/113383820-b64c7f00-9352-11eb-87ea-e70a51353c18.png)
 
-### Model Performance
-
-
+### Model Performance for Multi-class
+The models were better at predicting not popular and super popular categories with F1 score greater than 0.65. Gradient boosting is the best classifier to predict not popular and mediocre categories, random forest is the best classifier to predict popular and super popular categories. 
 
 ![Screen Shot 2021-04-01 at 1 19 42 AM](https://user-images.githubusercontent.com/26207455/113384169-776af900-9353-11eb-9028-86087460ed4e.png)
 

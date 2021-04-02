@@ -32,7 +32,7 @@ Some important features:
 *  Minimum number of shares of Mashable links
 *  Mashable data channel
 
-## Exploaroty Data Analysis
+## Exploratory Data Analysis
 
 Preliminary exploratory data analysis was conducted by creating scatter matrix visualizations and histograms to visualize correlations between features. 
 

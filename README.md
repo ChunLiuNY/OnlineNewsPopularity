@@ -12,7 +12,10 @@ The dataset in this analysis is publically available at [UCI Machine Learning Re
 To prepare the data for modeling, the full dataset is divided into a master train and test set. The test set will not be used until the best model has been chosen by training and testing on the master train datset. 
 
 Data pre-processing steps are as follows:
-* clean data
+* removed spaces in column names
+* URL was omitted when loading the data
+* assigned 0 or 1 values for the label
+* normalized features using MinMaxScaling
 
 ### Feature Importance
 

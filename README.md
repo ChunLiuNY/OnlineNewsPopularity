@@ -52,9 +52,18 @@ The dataset contains more articles that are published during the weekdays than t
 
 
 ## Supervised Learning Models
-Due to the high variance of the target variable (number of shares), regression models are not suitable for the prediction. So the prediction was tackled as a multiclass classification problem. There are 4 categories based on the percentile of the shares: "not popular", "mediocre", "popular" and "super popular". Three different supervised learning models were trained. 
+Due to the high variance of the target variable (number of shares), regression models are not suitable for the prediction. So the prediction was tackled as a multiclass classification problem. There are 4 categories based on the percentile of the shares: "not popular", "mediocre", "popular" and "super popular". The multi-class classification was done using One-vs-Rest method, that is, splitting the dataset into multiple binary classification datasets and fit a binary classification model on each. Undersampling was done to deal with the imbalanced data in binary classification for each class.  
 
-### Logistics Regression
+Three different supervised learning models were trained.
+
+### Logistic Regression
+Logistic regression models were trained on a train/test split using K-fold validation for each category. F1 score was used as the indicator of model prediction success. 
+
+Below is an example of cost matrix with estimated values for each class based on the assumptions:
+* a popular article will bring $5 in ads revenue in average
+* a not popular article will bring -$2 in ads revenue
+* it costs $3 to do improvement on not popular articles to make it popular
+* The opportunity cost of a popular article which predicted as not popular is $3
 
 | predicted/actual | not popular    | popular       |
 | :---             |     :---:      |          ---: |

@@ -22,11 +22,15 @@ Data pre-processing steps are as follows:
 Which features are important to make prediction? Feature importance was obtained based on mean decrease accuracy in random forest model.  
 
 To compute the importance of each feature:
- * When one tree is grown, use it to predict the test samples and record F1 score.
- * Randomly sort the feature (so that it is no longer correlated with the outcome) and do the prediction again. Compute the new F1 score.
- * Average the change in F1 score across all trees.
+* When one tree is grown, use it to predict the test samples and record F1 score.
+* Randomly sort the feature (so that it is no longer correlated with the outcome) and do the prediction again. Compute the new F1 score.
+* Average the change in F1 score across all trees.
 
-![Screen Shot 2021-03-31 at 2 29 59 PM](https://user-images.githubusercontent.com/26207455/113379139-b2b2fb00-9346-11eb-9c3c-aab9f736d365.png)
+Some important features:
+*  Average keyword (avg. shares)
+*  is_weekend
+*  Minimum number of shares of Mashable links
+*  Mashable data channel
 
 
 ## Exploaroty Data Analysis

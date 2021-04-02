@@ -56,10 +56,10 @@ Due to the high variance of the target variable (number of shares), regression m
 
 ### Logistics Regression
 
-| Left-aligned | Center-aligned | Right-aligned |
-| :---         |     :---:      |          ---: |
-| git status   | git status     | git status    |
-| git diff     | git diff       | git diff      |
+| predicted/actual | not popular    | popular       |
+| :---             |     :---:      |          ---: |
+| not popular      | -$2            | -$5           |
+| popular          | $2             | $5            |
 
 ### Random Forest Classifier
 

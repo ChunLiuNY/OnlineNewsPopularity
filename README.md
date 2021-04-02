@@ -71,6 +71,7 @@ Below is an example of cost matrix with estimated values for each class based on
 | popular          | $2             | $5            |
 
 According to the profit curve below, 0.5 is the best threshold. 
+
 ![Screen Shot 2021-03-31 at 7 37 51 PM](https://user-images.githubusercontent.com/26207455/113382752-4ccb7100-9350-11eb-820e-288ab28761af.png)
 
 
